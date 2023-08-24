@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Landing Page</title>
+  <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body id ="home">
+  <header id="header">
+    <nav id="nav-bar" class="sticky">
+      <div class="logo"><a href="#">Best Baker</a></div>
+
+      <ul class="nav-items">
+        <li class="nav-link"><a href="#home">Home</a></li>
+        <li class="nav-link"><a href="#about">About</a></li>
+        <li class="nav-link"><a href="#contact-us">Contact Us</a></li>
+
+      </ul>
+    </nav>
+    <div id="header-img">
+      <div class="header-img-content">
+        <h1 class="bg-text">If baking is any labor at all,<br> <span>it's a labor of love. <span></h1>
+        <p>A love that gets passed from generation to generation. <br><small>-Regina Brett</small> </p>
+      </div>
+    </div>
+  </header>
+  <main>
+    <div class="sec about" id ="about">
+      <h1>About</h1>
+      <iframe id="video" width="560" height="315" src="https://www.youtube.com/embed/FzzUVvGBTO8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+      <p class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores consectetur saepe autem nobis quibusdam dicta dolorem. Maxime consequatur obcaecati, cupiditate architecto sunt similique fugit iure delectus odit quisquam officia ipsum!</p>
+  <div class="staff">
+        <h1>Our Bakers</h1></div>
+      <div class="bakers">
+        
+        <div class="baker1">
+          <img src="https://images.unsplash.com/photo-1530785602389-07594beb8b73?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=334&q=80" alt="" style="width:100%">
+          <p>Gina Doe</p>
+        </div>
+        <div class="baker2">
+          <img src="https://images.unsplash.com/photo-1520409364224-63400afe26e5?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=358&q=80" alt="" style="width:100%">
+          <p>Mike Doe</p>
+        </div>
+        <div class="baker3">
+          <img src="https://images.unsplash.com/photo-1522602724102-7b966b111376?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=334&q=80" alt="" style="width:100%">
+          <p>Mia Doe</p>
+        </div>
+      </div>
+    </div>
+    <div class="sec" id= "contact-us">
+      <h1 style= "padding-top: 20px;">Contact Us</h1>
+      <form action="https://www.freecodecamp.com/email-submit" id="form">
+
+        <div class="form_input">
+          <label for="name" id="name-label" class="text">Name:</label><br>
+          <input type="text" id="name" name="name" placeholder="Your name here"><br>
+        </div>
+        <div class="form_input">
+          <label for="email" id="email-label" class="text">Email:</label><br>
+          <input type="email" id="email" name="email" placeholder="Your email here" required><br>
+          <small>Format: 12345678@email.com</small><br>
+        </div>
+        <div class="form_input">
+          <p class="text">Leave some comments and suggestions</p>
+          <textarea placeholder="Message"></textarea>
+        </div>
+        <button type="submit" id="submit" class="btn">Submit</button>
+
+      </form>
+    </div>
+    </div>
+
+  </main>
+
+</body>
+
+</html>
